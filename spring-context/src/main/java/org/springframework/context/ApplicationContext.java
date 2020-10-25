@@ -7,4 +7,6 @@ import org.springframework.core.io.support.ResourcePatternResolver;
 
 public interface ApplicationContext extends EnvironmentCapable, ListableBeanFactory, HierarchicalBeanFactory,
         MessageSource, ApplicationEventPublisher, ResourcePatternResolver {
+
+    String getDisplayName();
 }
